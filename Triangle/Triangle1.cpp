@@ -5,7 +5,7 @@ using namespace std;
         
         int height;
         
-            cout << "Enter height pero row: ";
+            cout << "Enter height per row: ";
             cin >> height;
         
         for (int i = 0; i <= height; i++) {
