@@ -17,8 +17,11 @@ int main(){
         cout << "\nWhat problem do you want to see (1-5)?: ";
         cin >> choice;
 
+        
         switch (choice) {
+            
             case 1: {
+                
                 cout << "\n==== Problem 1: Basic Pricing Decision ====\n" << endl;
 
                 int balance;
@@ -37,6 +40,7 @@ int main(){
             }
 
             case 2: {
+                
                 cout << "\n==== Problem 2: Weather-Based Discounts ====\n" << endl;
 
                 int temperature;
@@ -56,6 +60,7 @@ int main(){
             }
 
             case 3: {
+                
                 cout << "\n==== Problem 3: Inventory Check ====\n" << endl;
 
                 int lemonade1 , lemonade2;
@@ -80,6 +85,7 @@ int main(){
             }
 
             case 4: {
+                
                 cout << "\n==== Problem 4: Bulk Purchase Discount ====\n" << endl;
 
                 int cups;
@@ -110,6 +116,7 @@ int main(){
             }
 
             case 5: {
+                
                 cout << "\n==== Problem 5: Player Movement ====\n" << endl;
 
                 int x = 0 , y = 0;
@@ -155,11 +162,9 @@ int main(){
                     break;
         }
 
-
                 cout << "\nDo you want to choose again? (Y/N): ";
                 cin >> loop;
 
-  
             if (loop != 'Y' && loop != 'y' && loop != 'N' && loop != 'n') {
                 cout << "\nSorry but this is an invalid choice.\n";
                 loop = 'N';
